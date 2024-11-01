@@ -1,0 +1,24 @@
+{
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"eslint.validate": ["javascript", "typescript", "svelte"],
+	"svelte.plugin.svelte.format.enable": true,
+	"typescript.format.enable": true,
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always",
+		"source.organizeImports": "always"
+	},
+	"files.autoSave": "onFocusChange",
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+	}
+}
